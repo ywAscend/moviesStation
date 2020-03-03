@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/movies/main",
+    "pages/list/main",
+    "pages/detail/main",
+    "pages/moviesDetail/main",
+    "pages/playMovie/main"
+   
+  ],
+  "window": {
+    "backgroundTextStyle":"light",
+    "backgroundColor":"#DDDDDD",
+    "navigationBarBackgroundColor":"#489BB1"
+  },
+  "requiredBackgroundModes":["audio","location"],
+  "tabBar":{
+    "position": "bottom",
+    "list":[
+      {
+        "pagePath": "pages/list/main",
+        "text":"影视资讯",
+        "iconPath": "/static/images/news.jpg",
+        "selectedIconPath": "/static/images/news-select.jpg"
+      },{
+        "pagePath": "pages/movies/main",
+        "text":"电影频道",
+        "iconPath":"/static/images/movies.jpg",
+        "selectedIconPath":"/static/images/movies-select.jpg"
+      }
+    ]
+  }
+}
